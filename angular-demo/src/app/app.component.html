@@ -1,0 +1,15 @@
+<h1>{{title}}</h1>
+<h4>Uy tín , tiện lợi , nhanh gọn </h4>
+<div class="item">
+<input hidden type="file" #uploader (change)="uploadFile($event)" />
+<dx-button (click)="uploader.click()" text="Nhấn vào đây để lấy file ">
+  
+</dx-button></div>
+<!-- <div class="button-column">
+</div>   -->
+<div id="viewer" class="sectoin">
+  <pdf-viewer [src]="pdfSrc" [render-text]="true" [original-size]="false"
+  ></pdf-viewer>
+</div>
+
+<router-outlet></router-outlet>

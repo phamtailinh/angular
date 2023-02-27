@@ -1,0 +1,64 @@
+/* AppComponent's private CSS styles */
+h1 {
+    text-align: center;
+  }
+h4{
+   text-align: center;
+}
+
+::ng-deep .buttons-column {
+  width: 150px;
+  justify-content: center;
+}
+dx-button{
+  color: #131212;
+  background-color: #249afa;
+  border-radius: 2em;
+  
+}
+#viewer{
+  margin-top: 2em;
+  width: 70%;
+  height: 40em;
+  border: #131212 2px inset;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+pdf-viewer {
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* width */
+::ng-deep ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::ng-deep ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+  display: none;
+}
+ 
+/* Handle */
+::ng-deep ::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::ng-deep ::-webkit-scrollbar-thumb:hover {
+  background: #0f0f0f; 
+}
+.item{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
